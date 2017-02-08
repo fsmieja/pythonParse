@@ -11,6 +11,7 @@ class MyHTMLParser(HTMLParser):
     def handle_data(self, data):
         print "Encountered some data  :", data
 
+# anohter comment
 # instantiate the parser and fed it some HTML
 parser = MyHTMLParser()
 parser.feed('<html><head><title>Test</title></head>'
